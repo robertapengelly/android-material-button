@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <style name="TextAppearance.Material.Button">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_button_material</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    
+    <style name="Widget.Material.Button" parent="@android:style/Widget">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="background">@drawable/btn_default_material</item>
+    </style>
+
+</resources>
