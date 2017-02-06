@@ -23,7 +23,7 @@ Preview
     Step 2. Add the dependency
     
     dependencies {
-        compile 'com.github.robertapengelly:android-material-button:1.0.3'
+        compile 'com.github.robertapengelly:android-material-button:1.0.4'
     }
 
 # Usage
